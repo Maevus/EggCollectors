@@ -13,7 +13,7 @@ if (uncoveredEggs < 3) {
 	switch (uncoveredEggs) {
 		case 3:
 			if (probCalc < 25) {
-				score -= 1;
+				ReduceScore(1)
 				uncoveredEggs -= 1;
 				global.brokenEggCount += 1;
 				feedback = dialogue[1];
@@ -67,3 +67,4 @@ with (other) {
 }
 
 alarm[0] = room_speed * global.notificationSpeed;
+

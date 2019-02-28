@@ -1,6 +1,6 @@
 // Check for collision with other worker and implement penalty.
 if (scoreOnCollision != score) {
-	score -= 2;
+	ReduceScore(2);
 	scoreOnCollision = score;
 	
 	with (oBasketChild2) {

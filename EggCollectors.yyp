@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "9451962b-1bbb-4d8f-8649-e88bcdf18111",
+            "Value": {
+                "id": "b66c1378-d8c2-4cc2-932b-df5be56d2f74",
+                "resourcePath": "scripts\\ReduceScore\\ReduceScore.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "94f99b2b-187c-419e-b993-b0e03ce3d375",
             "Value": {
                 "id": "b542efcb-1074-4ab4-bb1d-990d99fd472c",
@@ -344,7 +352,7 @@
         }
     ],
     "script_order": [
-        
+        "9451962b-1bbb-4d8f-8649-e88bcdf18111"
     ],
     "tutorial": ""
 }
