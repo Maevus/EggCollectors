@@ -1,0 +1,1 @@
+x = oWorkerChild1.x;
