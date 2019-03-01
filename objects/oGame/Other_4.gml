@@ -8,6 +8,9 @@ if (room == rGame) {
 		chickens[i] = instance_find(oChicken,i);
 	}
 
-	alarm[0] = room_speed*60
+	// Set game timer
+	alarm[0] = room_speed * 60 - (10 * global.diffLevel); 
+	
+	// Set chicken spawn timers
 	alarm[1] = irandom_range(room_speed, room_speed*3);
 }

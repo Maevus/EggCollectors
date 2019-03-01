@@ -7,5 +7,5 @@ with(chicken_id) {
 	alarm[0] = room_speed*2;
 }
 
-// reset alarm
+// Reset alarm
 alarm[1] = irandom_range(room_speed, room_speed*3);
