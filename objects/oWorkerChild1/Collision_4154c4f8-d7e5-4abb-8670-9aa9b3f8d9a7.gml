@@ -1,19 +1,20 @@
 // Check for collision with other worker and implement penalty.
 if (scoreOnCollision != score) {
-	ReduceScore(2);
-	scoreOnCollision = score;
 	
+	// if full speed score = 0, eggs etc
+	// else
+	
+	ReduceScore(floor(score/2));
+
 	with (oBasketChild2) {
-		if (uncoveredEggs > 0) {
-			uncoveredEggs -= 1
-		}
+		ReduceUncoveredEggs(floor(score/2));
 	}
 
 	with (oBasketChild1) {
-		if (uncoveredEggs > 0) {
-			uncoveredEggs -= 1
-		}
-	}	
+		ReduceUncoveredEggs(floor(score/2));
+	}
+	
+	scoreOnCollision = score;
 }
 
 

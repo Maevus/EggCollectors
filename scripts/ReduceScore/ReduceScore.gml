@@ -1,5 +1,6 @@
 /// ReduceScore
-// Reduce the score value by a given amount.
+// @description Reduce the score value by a given amount.
+// @param integer score
 
 check = score
 

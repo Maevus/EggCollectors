@@ -16,11 +16,11 @@ if (uncoveredEggs < 3) {
 				ReduceScore(1)
 				uncoveredEggs -= 1;
 				global.brokenEggCount += 1;
-				feedback = dialogue[1];
+				feedback = dialogue[4];
 			} else {
 				score += 1;
 				uncoveredEggs += 1;
-				feedback = dialogue[4];
+				feedback = dialogue[1];
 			}
 		break;
 		case 4: 
@@ -28,37 +28,43 @@ if (uncoveredEggs < 3) {
 				score -= 1;
 				uncoveredEggs -= 1;
 				global.brokenEggCount += 1;
-				feedback = dialogue[2];
+				feedback = dialogue[3];
 
 			} else {
 				score += 1;
 				uncoveredEggs += 1;
 				global.brokenEggCount += 1;
-				feedback = dialogue[4];
+				feedback = dialogue[2];
 
 			}
 		break;
-	case 5:
-		if (probCalc < 75) {
-			score -= 1;
-			uncoveredEggs -= 1;
-			global.brokenEggCount += 1;
-			feedback = dialogue[3];
-		} else {
-			feedback = dialogue[4];
-			score += 1;
-			uncoveredEggs += 1;
-		}
-	break;
+		case 5:
+			if (probCalc < 75) {
+				score -= 1;
+				uncoveredEggs -= 1;
+				global.brokenEggCount += 1;
+				feedback = dialogue[4];
+			} else {
+				feedback = dialogue[3];
+				score += 1;
+				uncoveredEggs += 1;
+			}
+		break;
 	}
 }
 
 else {
 	// Negligent egg collecting! Break incoming egg and remove an egg.
-	score -= 1;
-	uncoveredEggs -= 1;
-	global.brokenEggCount += 1;
-	feedback = dialogue[4];
+	if (probCalc < 95) {
+			score -= 1;
+			uncoveredEggs -= 1;
+			global.brokenEggCount += 1;
+			feedback = dialogue[4];
+		} else {
+			feedback = dialogue[3];
+			score += 1;
+			uncoveredEggs += 1;
+		}
 }
 
 with (other) {

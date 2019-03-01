@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "cae20f53-c126-4dce-978c-a47d939a6b38",
+            "Value": {
+                "id": "ad9c1671-9bfa-4360-b3fe-186610090db1",
+                "resourcePath": "scripts\\ReduceUncoveredEggs\\ReduceUncoveredEggs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "93c67ce1-0c5a-45a5-805f-6437508b4996",
@@ -352,7 +360,8 @@
         }
     ],
     "script_order": [
-        "9451962b-1bbb-4d8f-8649-e88bcdf18111"
+        "9451962b-1bbb-4d8f-8649-e88bcdf18111",
+        "cae20f53-c126-4dce-978c-a47d939a6b38"
     ],
     "tutorial": ""
 }
