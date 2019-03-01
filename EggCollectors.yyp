@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "8aee709a-11b2-477c-9aa5-957794c0d3a7",
+            "Value": {
+                "id": "c0f5722c-c60c-4aaf-8278-80e7a69cc90b",
+                "resourcePath": "objects\\oInit\\oInit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f37864c-7038-4510-9a45-4ed53371e9ee",
             "Value": {
                 "id": "efc62189-f9c9-477c-b0a7-82f1edf6b53c",

@@ -1,4 +1,4 @@
-// Calculate movement
+/// @description Calculate movement
 if (keyboard_check(ord("X")) ) {
 	speed = -slow_speed;	
 }

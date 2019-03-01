@@ -9,7 +9,7 @@ if (room == rGame) {
 	}
 
 	// Set game timer
-	alarm[0] = room_speed * 60 - (10 * global.diffLevel); 
+	alarm[0] = room_speed * game_time;
 	
 	// Set chicken spawn timers
 	alarm[1] = irandom_range(room_speed, room_speed*3);

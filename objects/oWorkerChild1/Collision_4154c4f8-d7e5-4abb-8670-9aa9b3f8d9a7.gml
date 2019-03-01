@@ -1,4 +1,4 @@
-// Check for collision with other worker and implement penalty.
+/// @description Implement penalty.
 if (scoreOnCollision != score) {
 	
 	otherSpeed = 0;
