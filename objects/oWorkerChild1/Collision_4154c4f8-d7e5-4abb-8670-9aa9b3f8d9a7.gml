@@ -9,6 +9,7 @@ if (scoreOnCollision != score) {
 	if(abs(speed) == top_speed || otherSpeed == top_speed) {
 		show_debug_message("full speed collision,loose all eggs")
 		score = 0;
+		audio_play_sound(smash_full, 1, false);
 		
 		with (oBasketChild2) {
 			uncoveredEggs = 0;

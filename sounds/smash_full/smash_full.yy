@@ -1,8 +1,8 @@
 {
-    "id": "77c307cf-b404-44ec-899b-927be4dd633c",
+    "id": "eee6b410-a902-406b-ba81-f40c99578a30",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "small_full",
+    "name": "smash_full",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

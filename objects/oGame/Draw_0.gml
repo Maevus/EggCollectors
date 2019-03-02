@@ -10,15 +10,13 @@ switch(room) {
 		break;
 	
 	case rStart:
+		draw_set_color(c_green);
+		draw_set_font(font_title);
 		draw_set_halign(fa_center);
-		var col = c_green;
-		// draw header
-		draw_text_transformed_colour(
-			room_width/2, 200, "EGG COLLECTOR",
-			3,3, 0, col, col,col,col, 1);
+		draw_text(room_width/2, 200, "EGG COLLECTOR");
 		draw_set_color(c_yellow)
-		draw_text(room_width/2, 725, "DIFFICULTY LEVEL: " + string(global.diff[global.diffLevel]));
-		
+		draw_set_font(font_game_1);
+		draw_text(room_width/2, 720, "DIFFICULTY LEVEL: " + string(global.diff[global.diffLevel]));
 		draw_set_halign(fa_left);
 		break;
 	

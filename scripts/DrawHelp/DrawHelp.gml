@@ -1,6 +1,7 @@
 // @description Show help text
 draw_set_halign(fa_center);
 var c = c_yellow
+draw_set_color(c_white);
 var helpString = "OBJECTIVE\n"
 helpString += "Collect the required number of eggs to win. \n"
 helpString += "You have a limited time to do this, keep an eye on the clock! \n"
@@ -28,7 +29,6 @@ helpString +=" >> PRESS ESC TO RETURN TO MAIN MENU << \n"
 
 draw_text_transformed_color(
 room_width/2, 100, "Egg Collector Help", 
-3, 3, 0, c,c,c,c, 1
-);
+3, 3, 0, c,c,c,c, 1);
 draw_set_halign(fa_left);
 draw_text(250, 200, helpString);

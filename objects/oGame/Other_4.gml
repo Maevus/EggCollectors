@@ -16,6 +16,10 @@ if (room == rGame) {
 }
 
 // Play sound in all rooms, except Gamover room.
-if (room != rGameover) {
+if (room == rStart) {
 	audio_play_sound(master_song, 2, true);
+} 
+
+if (room == rGameover) {
+	audio_stop_sound(master_song);	
 }
