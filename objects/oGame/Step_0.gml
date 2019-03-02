@@ -1,6 +1,3 @@
-
-
-   
 if(room = rGame){
 	if(score >= targetEggs){
 		room_goto(rWin);
@@ -12,5 +9,8 @@ if(room = rGame){
 		audio_play_sound(snd_lose, 1, false);
 	}
 	
-	//ToDo add timer countdown
+	if(alarm[0] <= 0) {
+		room_goto(rGameover);
+		audio_play_sound(snd_lose, 1, false);
+	}
 }

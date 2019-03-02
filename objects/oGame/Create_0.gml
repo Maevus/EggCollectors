@@ -16,3 +16,5 @@ brokenEggCount = 0;
 // vars
 eggGravity = 0.02 + (0.02 * global.diffLevel)
 hayGravity = 0.015 - (0.007 * global.diffLevel) 
+
+// Start soundtrack

@@ -14,3 +14,8 @@ if (room == rGame) {
 	// Set chicken spawn timers
 	alarm[1] = irandom_range(room_speed, room_speed*3);
 }
+
+// Play sound in all rooms, except Gamover room.
+if (room != rGameover) {
+	audio_play_sound(master_song, 2, true);
+}

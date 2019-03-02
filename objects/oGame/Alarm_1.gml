@@ -1,4 +1,4 @@
-// Alarm to select a random chicken instance
+/// @description Select a random chicken instance
 var chicken_id = chickens[irandom_range(0, array_length_1d(chickens)-1)]
 
 // Selected chicken waits, than lays egg , then reverts to previous sprite.

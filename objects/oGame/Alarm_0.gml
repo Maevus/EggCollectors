@@ -1,3 +1,2 @@
-// Timer for the game.
+/// @description Game timer
 show_message("Time's up!");
-//alarm[0] = room_speed * 60 // reset 

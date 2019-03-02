@@ -1,5 +1,6 @@
-uncoveredEggs = 0;
+///  @description init basket egg count, feedback
 
+uncoveredEggs = 0;
 
 feedback = "";
 
