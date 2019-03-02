@@ -1,18 +1,18 @@
 probCalc = irandom(99)
 
-show_debug_message(string(probCalc));
-show_debug_message(string(uncoveredEggs));
+show_debug_message("Prob calc :"+string(probCalc));
+show_debug_message(string(self) + ": "+ string(uncoveredEggs));
 
-if (uncoveredEggs < 3) {
+if (uncoveredEggs <= 3) {
 	// Exemplary egg collecting! Increase score without question.
 	score += 1;
 	audio_play_sound(egg, 1, false);
 	uncoveredEggs += 1;
 	feedback = dialogue[0];
 
-} else if (uncoveredEggs >= 3 && uncoveredEggs <=5) {
+} else if (uncoveredEggs > 3 && uncoveredEggs <=6) {
 	switch (uncoveredEggs) {
-		case 3:
+		case 4:
 			if (probCalc < 25) {
 				ReduceScore(1)
 				uncoveredEggs -= 1;
@@ -25,13 +25,13 @@ if (uncoveredEggs < 3) {
 				feedback = dialogue[1];
 			}
 		break;
-		case 4: 
+		
+		case 5: 
 			if (probCalc < 50) {
 				ReduceScore(1);
 				uncoveredEggs -= 1;
 				oGame.brokenEggCount += 1;
 				feedback = dialogue[4];
-
 			} else {
 				score += 1;
 				audio_play_sound(egg, 1, false);
@@ -41,7 +41,8 @@ if (uncoveredEggs < 3) {
 
 			}
 		break;
-		case 5:
+		
+		case 6:
 			if (probCalc < 75) {
 				ReduceScore(1);
 				uncoveredEggs -= 1;

@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "3303c46f-e064-4379-82c9-7a652fe05971",
+            "Value": {
+                "id": "e331412f-0884-48cb-bc8f-759350838213",
+                "resourcePath": "objects\\oHayMini2\\oHayMini2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a2c0724-a3d7-4ffb-8989-e80b5a9f72cb",
             "Value": {
                 "id": "782b7bc4-e111-4819-b3f0-49c3b96a94ed",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "77c70463-3b79-4735-8f91-3a28ff95a083",
+            "Value": {
+                "id": "a2321098-f3c1-4e3e-9885-24589f5f8b51",
+                "resourcePath": "objects\\oHayMini1\\oHayMini1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "77f74d8a-957e-487d-8728-54958d2bc74f",
             "Value": {
                 "id": "c3848c25-47fc-493b-afd7-bd97c13c4f5a",
@@ -292,6 +308,14 @@
                 "id": "331cb7c1-5a31-4124-8b00-02114e80c902",
                 "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7e74c29b-64a6-455b-9fcb-323f42eb31d9",
+            "Value": {
+                "id": "3c5c0169-c99c-47da-bf3b-515b64375887",
+                "resourcePath": "sprites\\sMiniHay\\sMiniHay.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

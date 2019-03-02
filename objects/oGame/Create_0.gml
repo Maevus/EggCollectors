@@ -4,7 +4,7 @@ score = 0;
 // Screenshot index
 screennum = date_current_datetime();
 
-game_time = 60 - (10 * global.diffLevel);
+game_time = 50000//60 - (10 * global.diffLevel);
 
 // Targets and lives
 targetEggs = 5 + (5 * global.diffLevel);
@@ -17,4 +17,3 @@ brokenEggCount = 0;
 eggGravity = 0.02 + (0.02 * global.diffLevel)
 hayGravity = 0.015 - (0.007 * global.diffLevel) 
 
-// Start soundtrack

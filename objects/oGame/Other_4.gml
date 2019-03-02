@@ -7,7 +7,10 @@ if (room == rGame) {
 	for (var i = 0; i < instance_number(oChicken); i += 1) {
 		chickens[i] = instance_find(oChicken,i);
 	}
-
+	
+	// Set initial hay padding as visible
+	object_set_visible(oHayMini1, true);
+	object_set_visible(oHayMini2, true);
 	// Set game timer
 	alarm[0] = room_speed * game_time;
 	
