@@ -1,3 +1,8 @@
+if (speed = 0) {
+	sprite_index = sWorker2_stationary;
+} else {
+	sprite_index = sWorker2;
+}
 
 // Calculate movement
 if (keyboard_check(188)) { // key code for ,

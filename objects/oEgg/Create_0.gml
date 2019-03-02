@@ -1,1 +1,1 @@
-gravity = global.eggGravity
+gravity = oGame.eggGravity;

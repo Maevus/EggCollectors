@@ -1,1 +1,1 @@
-gravity = global.hayGravity
+gravity = oGame.hayGravity;

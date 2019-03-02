@@ -8,11 +8,11 @@ game_time = 60 - (10 * global.diffLevel);
 
 // Targets and lives
 targetEggs = 5 + (5 * global.diffLevel);
-maxBrokenEggCount = 1 - (2 * global.diffLevel);
+maxBrokenEggCount = 5 - (2 * global.diffLevel);
 
 // Counters
 brokenEggCount = 0;
 
 // vars
 eggGravity = 0.02 + (0.02 * global.diffLevel)
-hayGravity = 0.015 - (0.005 * global.diffLevel) 
+hayGravity = 0.015 - (0.007 * global.diffLevel) 
