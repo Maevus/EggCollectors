@@ -3,13 +3,15 @@ var i = 0;
 
 repeat(buttons) {
 	
+	var brown = make_color_rgb(99, 62, 36);
+	
 	draw_set_font(font_menu);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	
 	yy = menu_y + (button_h + buttonPadding) * i;
 	
-	draw_set_color(c_dkgray);
+	draw_set_color(brown);
 	draw_rectangle(menu_x, yy, menu_x + button_w, yy + button_h, false);
 	
 	draw_set_color(c_green);
@@ -28,17 +30,11 @@ if (openDifficultyMenu = 1) {
 	diffMenu_x = menu_x + button_w + buttonPadding;
 	diffMenu_y = menu_y + button_h/2;
 	
-	// Draw outline rectangle
-	/*
-	draw_set_color(c_red);
-	draw_rectangle(diffMenu_x, diffMenu_y, diffMenu_x + button_w, 
-	diffMenu_y + button_h*diffs + buttonPadding, true);
-	*/
 	var j = 0;
 	repeat(diffs) {	
 		diff_yy = diffMenu_y + (button_h + buttonPadding) * j;
 		
-		draw_set_color(c_dkgray);
+		draw_set_color(brown);
 		draw_rectangle(diffMenu_x, diff_yy, diffMenu_x + button_w, 
 				diff_yy + button_h, false);
 		

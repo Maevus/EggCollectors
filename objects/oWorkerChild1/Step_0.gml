@@ -11,7 +11,7 @@ if (keyboard_check(ord("Z")) ) {
 if (keyboard_check(ord("X")) ) {
 	speed = slow_speed;	
 }
-if (keyboard_check(220)){
+if (keyboard_check(220)) {
 	speed = -top_speed;
 }
 if (keyboard_check(ord("C")) ) {
