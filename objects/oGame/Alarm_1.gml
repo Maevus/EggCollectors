@@ -1,4 +1,5 @@
 /// @description Select a random chicken instance
+/* **Created by Maeve Lynskey 07257724 */
 var chicken_id = chickens[irandom_range(0, array_length_1d(chickens)-1)]
 
 // Selected chicken waits, than lays egg , then reverts to previous sprite.

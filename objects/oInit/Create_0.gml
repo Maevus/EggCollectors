@@ -1,6 +1,5 @@
 /// @description Initalises global data 
-// Updates and stores these variables in a persistent fashion.
-// It is a singleton service.
+/* **Created by Maeve Lynskey 07257724 */
 
 // Difficulty level
 

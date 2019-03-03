@@ -1,4 +1,5 @@
 /// @description Implement penalty.
+/* **Created by Maeve Lynskey 07257724 */
 if (scoreOnCollision != score) {
 	
 	otherSpeed = 0;

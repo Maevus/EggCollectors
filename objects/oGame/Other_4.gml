@@ -1,5 +1,7 @@
-// When game room is opened, trigger alarm to select a laying hen.
+/// @description Chicken arrays, music.
 // Generate array of chicken instance ids.
+/* **Created by Maeve Lynskey 07257724 */
+
 if (room == rGame) {
 	
 	chickens = array_create(instance_number(oChicken), -1);
@@ -20,8 +22,14 @@ if (room == rGame) {
 
 // Play sound in all rooms, except Gamover room.
 if (room == rStart) {
-	audio_play_sound(master_song, 2, true);
-} 
+	// Restart song if already playing.
+	if (audio_is_playing(master_song)) {
+		audio_stop_sound(master_song);	
+		audio_play_sound(master_song, 2, true);
+	} else {
+		audio_play_sound(master_song, 2, true);
+	}
+}	
 
 if (room == rGameover) {
 	audio_stop_sound(master_song);	

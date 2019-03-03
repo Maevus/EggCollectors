@@ -1,4 +1,5 @@
 /// @description Follow worker + mini hay visibility
+/* **Created by Maeve Lynskey 07257724 */
 
 x = oWorkerChild2.x;
 

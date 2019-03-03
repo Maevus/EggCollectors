@@ -1,4 +1,5 @@
 /// @description Manage menu navigation
+/* **Created by Maeve Lynskey 07257724 */
 
 // Return 0 if nothing being pressed on 1 if pressing down, -1 if pressing up.
 menuMove = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)

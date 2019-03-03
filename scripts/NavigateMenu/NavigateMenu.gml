@@ -1,6 +1,8 @@
 // @description control menu navigation
+/* **Created by Maeve Lynskey 07257724 */
 // @ param menuIndex, menuMove, 
 // @ return index of menu position
+
 
 move = argument[0];
 index = argument[1];

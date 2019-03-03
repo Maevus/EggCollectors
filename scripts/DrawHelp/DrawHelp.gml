@@ -1,4 +1,6 @@
-// @description Show help text
+/// @description Show help text
+/* **Created by Maeve Lynskey 07257724 */
+
 draw_set_halign(fa_center);
 var c = c_yellow
 draw_set_color(c_white);

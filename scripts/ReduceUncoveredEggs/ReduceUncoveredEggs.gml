@@ -1,5 +1,6 @@
-/// ReduceUncovered
-// @description Reduce uncovered egg count in a basket object.
+/// @description  ReduceUncovered
+// **Created by Maeve Lynskey 07257724
+// Reduce uncovered egg count in a basket object.
 // @param integer reduction penalty	
 
 eggs = uncoveredEggs;

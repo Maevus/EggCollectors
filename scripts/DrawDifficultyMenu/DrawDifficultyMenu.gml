@@ -1,3 +1,5 @@
+/// @description Difficulty menu
+/* **Created by Maeve Lynskey 07257724 */
 var i = 0;
 
 repeat(buttons) {

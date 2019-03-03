@@ -1,10 +1,13 @@
+/// @description Calculate movement
+/* **Created by Maeve Lynskey 07257724 */
+
 if (speed = 0) {
 	sprite_index = sWorker1_stationary;
 } else {
 	sprite_index = sWorker1;
 }
 
-/// @description Calculate movement
+
 if (keyboard_check(ord("Z")) ) {
 	speed = -slow_speed;	
 }

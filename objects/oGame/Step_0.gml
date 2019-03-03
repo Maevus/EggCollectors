@@ -1,3 +1,6 @@
+/// @decription track eggs
+/* **Created by Maeve Lynskey 07257724 */
+
 if(room = rGame){
 	if(score >= targetEggs){
 		room_goto(rWin);

@@ -1,3 +1,6 @@
+/// @description Calculate movement
+/* **Created by Maeve Lynskey 07257724 */
+
 if (speed = 0) {
 	sprite_index = sWorker2_stationary;
 } else {

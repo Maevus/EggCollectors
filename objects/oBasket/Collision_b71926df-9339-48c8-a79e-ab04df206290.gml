@@ -1,3 +1,5 @@
+/// @description calculate score probabilites
+/* **Created by Maeve Lynskey 07257724 */
 probCalc = irandom(99)
 
 show_debug_message("Prob calc :"+string(probCalc));
